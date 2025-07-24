@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', sans-serif;
+  background: rgba(223, 196, 161, 0.897);
+  color: #333;
+}
+.notice{
+  background-color: #0e2f6b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+.notice span{
+  background-color: #00c853;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.log{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navref{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navref a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.purchase{
+  background: #0066ff;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pin{
+  text-align: center;
+  padding: 100px 20px;
+}
+.pin h1{
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.pin p{
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 17px;
+}
+.lastdiv{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.lastdiv1,.lastdiv2{
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.lastdiv1{
+  background-color: #007bff;
+  color: white;
+}
+.lastdiv2{
+  background-color: #f1f1f1;
+  color: #333;
+}
